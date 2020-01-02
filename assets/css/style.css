@@ -101,3 +101,35 @@ h2 {
     font-size: 25px;
     font-weight: bold;
 }
+
+.tlmargin {
+    margin: 25px auto 5px 60px;
+}
+.trmargin {    
+    margin: 25px 60px 5px auto;
+}
+.blmargin {
+    margin: 0 auto 10px 35px;
+}
+.brmargin {
+    margin: 0 35px 10px auto;
+}
+#playerChoice {
+    float: left;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 10px auto 10px 20px;
+    width: 150px;
+    height: 150px;
+}
+#actionBox {
+    float: left;
+    color: white;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 55px auto auto 35px;
+    width: 280px;
+    height: auto;
+    text-align: center;
+}
