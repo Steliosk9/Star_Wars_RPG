@@ -77,6 +77,162 @@ $(document).ready(function(){
         }
         selectWarrior();
 
+        function playerOrEnemy () {
+            if (numOfWarriors === 4 && masterYoda === true) {
+                player = true;
+                numOfWarriors--;
+                $("#playerChoice").attr("class", "yoda");
+                playerAttack = yodaAttack;
+                playerHP = yodaHP;
+                $("#playerHP").text(playerHP);
+                $("#warrior1").prop("onclick", null).off("click");
+            } else if (numOfWarriors === 4 && lukeSkywalker === true) {
+                player = true;
+                numOfWarriors--;
+                $("#playerChoice").attr("class", "luke");
+                playerAttack = lukeAttack;
+                playerHP = lukeHP;
+                $("#playerHP").text(playerHP);
+                $("#warrior2").prop("onclick", null).off("click");
+            } else if (numOfWarriors === 4 && darthVader === true)  {
+                player = true;
+                numOfWarriors--;
+                $("#playerChoice").attr("class", "vader");
+                playerAttack = vaderAttack;
+                playerHP = vaderHP;
+                $("#playerHP").text(playerHP);
+                $("#warrior3").prop("onclick", null).off("click");
+            } else if (numOfWarriors === 4 && kyloRen === true) {
+                player = true;
+                numOfWarriors--;
+                $("#playerChoice").attr("class", "kylo");
+                playerAttack = kyloAttack;
+                playerHP = kyloHP;
+                $("#playerHP").text(playerHP);
+                $("#warrior4").prop("onclick", null).off("click");
+            } else if (numOfWarriors === 3 && masterYoda === true) {
+                enemy = true;
+                numOfWarriors--;
+                $("#enemyChoice").attr("class", "yoda");
+                enemyCounter = yodaCounter
+                enemyHP = yodaHP
+                $("#enemyHP").text(enemyHP);
+                $("#warrior1").prop("onclick", null).off("click");
+                $("#attack").text(" ");
+                $("#counter").text("Click Your Warrior To Attack");
+            } else if (numOfWarriors === 3 && lukeSkywalker === true) {
+                enemy = true;
+                numOfWarriors--;
+                $("#enemyChoice").attr("class", "luke");
+                enemyCounter = lukeCounter
+                enemyHP = lukeHP
+                $("#enemyHP").text(enemyHP);
+                $("#warrior2").prop("onclick", null).off("click");
+                $("#attack").text(" ");
+                $("#counter").text("Click Your Warrior To Attack");
+            } else if (numOfWarriors === 3 && darthVader === true)  {
+                enemy = true;
+                numOfWarriors--;
+                $("#enemyChoice").attr("class", "vader");
+                enemyCounter = vaderCounter
+                enemyHP = vaderHP
+                $("#enemyHP").text(enemyHP);
+                $("#warrior3").prop("onclick", null).off("click");
+                $("#attack").text(" "); 
+                $("#counter").text("Click Your Warrior To Attack");    
+            } else if (numOfWarriors === 3 && kyloRen === true) {
+                enemy = true;
+                numOfWarriors--;
+                $("#enemyChoice").attr("class", "kylo");
+                enemyCounter = kyloCounter
+                enemyHP = kyloHP
+                $("#enemyHP").text(enemyHP);
+                $("#warrior4").prop("onclick", null).off("click");
+                $("#attack").text(" "); 
+                $("#counter").text("Click Your Warrior To Attack");   
+            } else if (numOfWarriors === 2 && masterYoda === true) {
+                enemy = true;
+                numOfWarriors--;
+                $("#enemyChoice").attr("class", "yoda");
+                enemyCounter = yodaCounter
+                enemyHP = yodaHP
+                $("#enemyHP").text(enemyHP);
+                $("#warrior1").prop("onclick", null).off("click");
+                $("#attack").text(" ");
+                $("#counter").text("Click Your Warrior To Attack");
+            } else if (numOfWarriors === 2 && lukeSkywalker === true) {
+                enemy = true;
+                numOfWarriors--;
+                $("#enemyChoice").attr("class", "luke");
+                enemyCounter = lukeCounter
+                enemyHP = lukeHP
+                $("#enemyHP").text(enemyHP);
+                $("#warrior2").prop("onclick", null).off("click");
+                $("#attack").text(" ");
+                $("#counter").text("Click Your Warrior To Attack");
+            } else if (numOfWarriors === 2 && darthVader === true)  {
+                enemy = true;
+                numOfWarriors--;
+                $("#enemyChoice").attr("class", "vader");
+                enemyCounter = vaderCounter
+                enemyHP = vaderHP
+                $("#enemyHP").text(enemyHP);
+                $("#warrior3").prop("onclick", null).off("click"); 
+                $("#attack").text(" ");
+                $("#counter").text("Click Your Warrior To Attack");    
+            } else if (numOfWarriors === 2 && kyloRen === true) {
+                enemy = true;
+                numOfWarriors--;
+                $("#enemyChoice").attr("class", "kylo");
+                enemyCounter = kyloCounter
+                enemyHP = kyloHP
+                $("#enemyHP").text(enemyHP);
+                $("#warrior4").prop("onclick", null).off("click"); 
+                $("#attack").text(" ");
+                $("#counter").text("Click Your Warrior To Attack");   
+            } else if (numOfWarriors === 1 && masterYoda === true) {
+                enemy = true;
+                numOfWarriors--;
+                $("#enemyChoice").attr("class", "yoda");
+                enemyCounter = yodaCounter
+                enemyHP = yodaHP
+                $("#enemyHP").text(enemyHP);
+                $("#warrior1").prop("onclick", null).off("click");
+                $("#attack").text(" ");
+                $("#counter").text("Click Your Warrior To Attack");
+            } else if (numOfWarriors === 1 && lukeSkywalker === true) {
+                enemy = true;
+                numOfWarriors--;
+                $("#enemyChoice").attr("class", "luke");
+                enemyCounter = lukeCounter
+                enemyHP = lukeHP
+                $("#enemyHP").text(enemyHP);
+                $("#warrior2").prop("onclick", null).off("click");
+                $("#attack").text(" ");
+                $("#counter").text("Click Your Warrior To Attack");
+            } else if (numOfWarriors === 1 && darthVader === true)  {
+                enemy = true;
+                numOfWarriors--;
+                $("#enemyChoice").attr("class", "vader");
+                enemyCounter = vaderCounter
+                enemyHP = vaderHP
+                $("#enemyHP").text(enemyHP);
+                $("#warrior3").prop("onclick", null).off("click"); 
+                $("#attack").text(" ");
+                $("#counter").text("Click Your Warrior To Attack");    
+            } else if (numOfWarriors === 1 && kyloRen === true) {
+                enemy = true;
+                numOfWarriors--;
+                $("#enemyChoice").attr("class", "kylo");
+                enemyCounter = kyloCounter
+                enemyHP = kyloHP
+                $("#enemyHP").text(enemyHP);
+                $("#warrior4").prop("onclick", null).off("click"); 
+                $("#attack").text(" ");
+                $("#counter").text("Click Your Warrior To Attack");   
+            }
+        };
+        
 
 
 })
