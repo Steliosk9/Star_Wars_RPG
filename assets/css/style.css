@@ -13,3 +13,19 @@ body {
         padding: 15px 0  15px 0;
         background-color: black;
     }
+    .directions {
+        color: white;
+        text-align: center;
+        margin: 5px auto 5px auto;
+        width: 500px;
+    }
+h2 {
+    color: white;
+    text-shadow: 1px 1px red;
+    font-size: 150%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px auto 10px auto;
+    background-color: black;
+    width: 220px;
+}
