@@ -133,3 +133,12 @@ h2 {
     height: auto;
     text-align: center;
 }
+
+#enemyChoice {
+    float: right;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 10px 20px 10px auto;
+    width: 150px;
+    height: 150px;
+}
