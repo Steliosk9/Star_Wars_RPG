@@ -82,3 +82,22 @@ h2 {
 }
 .none {
     background: none;
+}
+.battleBox {
+    margin: 20px auto 20px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 700px;
+    height: 280px;
+    background-color: black;
+}
+.floatleft {
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+.floatright {
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
