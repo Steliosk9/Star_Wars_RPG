@@ -29,3 +29,37 @@ h2 {
     background-color: black;
     width: 220px;
 }
+
+.warriorBox {
+    width: 700px;
+    height: 172px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px auto 10px auto;
+    background-color: black;
+
+}
+.fighter {
+    float: left;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 11px 10px 11px;
+    width: 150px;
+    height: 150px;
+}
+.yoda {
+    background: url("../images/mandalorian-chapter-7-baby-yoda-choke.jpg") no-repeat;
+    background-size: 170px 150px;
+}
+.luke {
+    background: url("../images/screen_shot_2018-10-23_at_9.36.04_am.jpg") no-repeat;
+    background-size: 170px 150px;
+}
+.vader {
+    background: url("../images/warrior3-darthvader.jpg") no-repeat;
+    background-size: 170px 150px;
+}
+.kylo {
+    background: url("../images/warrior4-kyloren.jpg") no-repeat;
+    background-size: 170px 150px;
+}
