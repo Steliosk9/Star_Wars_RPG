@@ -30,7 +30,52 @@ $(document).ready(function(){
     var enemyCounter = 0;
     var enemyHP = 0
 
-
+    function selectWarrior() {
+        $("#warrior1").on("click", function () {
+            masterYoda = true;
+            if (player === false || enemy === false) {
+                playerOrEnemy();
+            };
+            console.log(masterYoda);
+            masterYoda = false;
+            console.log(enemy);
+            console.log(numOfWarriors);
+        });
+        
+        $("#warrior2").on("click", function () {
+            lukeSkywalker = true;
+            if (player === false || enemy === false) {
+                playerOrEnemy();
+            };
+            console.log(lukeSkywalker);
+            lukeSkywalker = false;    
+            console.log(enemy);
+            console.log(numOfWarriors);
+        });
+        
+        $("#warrior3").on("click", function () {
+            darthVader = true;
+            if (player === false || enemy === false) {
+                playerOrEnemy();
+            };
+            console.log(darthVader);
+            darthVader = false;
+            console.log(enemy);
+            console.log(numOfWarriors);
+        });
+        
+        $("#warrior4").on("click", function () {
+            kyloRen = true;
+            if (player === false || enemy === false) {
+                playerOrEnemy();
+            };
+            console.log(kyloRen);
+            kyloRen = false;
+            console.log(enemy);
+            console.log(numOfWarriors);
+        });
+        }
+        selectWarrior();
 
 
 
