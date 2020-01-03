@@ -233,6 +233,32 @@ $(document).ready(function(){
             }
         };
         
-
+        function battle() {
+            if (playerHP > 0 && enemyHP > 0) {
+                $("#attack").text("Player Attack: " + playerAttack);
+                $("#counter").text("Enemy Counter: " + enemyCounter);
+                enemyHP = enemyHP - playerAttack
+                playerHP = playerHP - enemyCounter
+                $("#playerHP").text(playerHP);
+                $("#enemyHP").text(enemyHP);
+                playerAttack += playerAttack
+            } else if (playerHP > 0 && enemyHP <= 0 && numOfWarriors > 0) {
+                $("#attack").text("You Win");
+                $("#counter").text("Choose Your Next Opponent")
+                enemy = false;
+                $("#enemyChoice").attr("class", "none");
+            } else if (playerHP > 0 && numOfWarriors === 0) {
+                $("#attack").text("You Are The Greatest Warrior");
+                $("#enemyChoice").attr("class", "none");
+                $("#counter").empty();
+                $("#reset").text("Click [Here] To Play Again");
+            } else if (playerHP <= 0) {
+                $("#attack").text("You Lose");
+                $("#counter").text("Game Over");
+                $("#playerChoice").attr("class", "none");
+                $("#reset").text("Click [Here] To Play Again");
+            }
+            
+        };
 
 })
