@@ -261,4 +261,47 @@ $(document).ready(function(){
             
         };
 
-})
+        
+$("#playerChoice").on("click", function () {
+    battle();
+});
+$("#reset").on("click", function() {
+    resetAll();
+    });
+
+function resetAll () {
+    $("#reset").empty();
+    $("#playerChoice").attr("class", "none");
+    $("#playerChoice").empty();
+    $("#enemyChoice").attr("class", "none");
+    $("#enemyChoice").empty();
+    $("#attack").text("Get Ready To Battle");
+    $("#counter").empty();
+    $("#playerHP").text("0");
+    $("#enemyHP").text("0");
+
+    masterYoda = false;
+    lukeSkywalker = false;
+    darthVader = false;
+    kyloRen = false;
+
+    numOfWarriors = 4
+
+    player = false;
+    playerAttack = 0;
+    playerHP = 1;
+
+    enemy = false;
+    enemyCounter = 0;
+    enemyHP = 1;
+    selectWarrior();
+    console.log(numOfWarriors);
+    console.log(enemy);
+    console.log(player);
+    console.log(masterYoda);
+    console.log(lukeSkywalker);
+    console.log(darthVader);
+    console.log(kyloRen);
+}
+
+});
