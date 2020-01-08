@@ -2,7 +2,9 @@
 
 
 
-<img src="https://media.giphy.com/media/6PP8yIFFgAQ92/giphy.giff"/>
+
+
+!(image)[https://media.giphy.com/media/6PP8yIFFgAQ92/giphy.giff]
 
 
 ## How to Play
