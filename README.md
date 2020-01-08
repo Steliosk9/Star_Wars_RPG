@@ -4,7 +4,8 @@
 
 
 
-[https://media.giphy.com/media/6PP8yIFFgAQ92/giphy.giff]
+![giphy](https://user-images.githubusercontent.com/48913638/71941823-bd510580-3180-11ea-9834-23dbd291f2e5.gif)
+
 
 
 ## How to Play
