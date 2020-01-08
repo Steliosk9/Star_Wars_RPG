@@ -1,7 +1,7 @@
 # Star Wars Game
 
 
-![Alt text](https://media.giphy.com/media/MYjD5GZDTwiZy/giphy.gif"Optional title")
+![](https://giphy.com/gifs/MYjD5GZDTwiZy/html5)
 
 
 
