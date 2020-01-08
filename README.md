@@ -4,7 +4,7 @@
 
 
 
-!(image)[https://media.giphy.com/media/6PP8yIFFgAQ92/giphy.giff]
+[https://media.giphy.com/media/6PP8yIFFgAQ92/giphy.giff]
 
 
 ## How to Play
